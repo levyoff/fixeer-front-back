@@ -1,0 +1,36 @@
+nav.headerLogin {
+  height: 60px;
+}
+
+.about-us-login {
+  font-size: 13px;
+  position: relative;
+  margin-right: 5px;
+  bottom: 5px;
+}
+
+.headerLogin-button {
+  font-size: 16px;
+  position: relative;
+  top: 6px;
+  right: 2px;
+}
+
+@media (min-width: 700px) {
+  img.icon {
+    position: relative;
+    top: 3px;
+  }
+
+  .headerLogin-button {
+    font-size: 22px;
+    position: relative;
+    right: 9px;
+  }
+
+  .about-us-login {
+    font-size: 16px;
+    position: relative;
+    bottom: 4px;
+  }
+}

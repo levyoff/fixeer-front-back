@@ -1,0 +1,24 @@
+p.usernameLogin {
+  position: relative;
+  bottom: 15px;
+  color: #cfcfcfeb;
+  display: block;
+  width: 20px;
+}
+
+.ruta-username-login {
+  display: block;
+  width: 20px;
+}
+
+@media (min-width: 700px) {
+  p.usernameLogin {
+    position: relative;
+    left: 80px;
+    bottom: 45px;
+    color: #cfcfcfeb;
+    display: block;
+    width: 30px;
+    font-size: 18px;
+  }
+}

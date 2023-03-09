@@ -1,0 +1,14 @@
+.status-service {
+  display: flex;
+  gap: 15px;
+  position: relative;
+  left: 15px;
+}
+
+.title-status-service {
+  position: relative;
+  top: 16px;
+}
+
+div.status-service > button {
+}

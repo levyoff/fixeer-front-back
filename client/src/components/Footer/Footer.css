@@ -1,0 +1,22 @@
+footer {
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(29, 29, 32);
+  background-image: url();
+}
+
+@media (min-width: 700px) {
+  footer {
+    padding: 13px;
+  }
+
+  footer > p {
+    font-size: 16px;
+  }
+}

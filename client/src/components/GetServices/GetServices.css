@@ -1,0 +1,10 @@
+.getService {
+  padding-top: 0.4rem;
+  list-style: none;
+}
+
+@media (min-width: 700px) {
+  div.services {
+    margin-bottom: 50px;
+  }
+}

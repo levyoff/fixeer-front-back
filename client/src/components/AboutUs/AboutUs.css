@@ -1,0 +1,58 @@
+.h1About {
+  font-size: 35px;
+  text-align: center;
+  padding: 7px;
+}
+
+.mainAboutUs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infoAboutUs {
+  text-align: justify;
+  max-width: 300px;
+  position: relative;
+  bottom: 20px;
+}
+
+.icon-2-small {
+  width: 240px;
+  height: 240px;
+  margin-bottom: 15px;
+}
+
+.icon-2-container {
+  display: flex;
+  justify-content: center;
+}
+
+.p-about {
+  margin-top: 30px;
+  font-size: larger;
+}
+
+@media (min-width: 700px) {
+  .h1About {
+    font-size: 40px;
+    text-align: center;
+    padding: 7px;
+  }
+
+  .infoAboutUs {
+    max-width: 500px;
+  }
+
+  .p-about {
+    margin-top: 30px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .mainAboutUs {
+    margin-top: 60px;
+  }
+}
